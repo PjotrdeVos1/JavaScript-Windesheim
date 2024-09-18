@@ -1,0 +1,18 @@
+Index: flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\r\n    margin: 0;\r\n}\r\n.container {\r\n    display: grid;\r\n    height: 83vh;\r\n\r\n    gap: 15px;\r\n    justify-content: space-between;\r\n    row-gap: 5px;\r\n\r\n}\r\n\r\n.sidebar-l {\r\n    width: 25vw;\r\n    height: 83vh;\r\n    background-color: skyblue;\r\n    border: 2px solid black;\r\n\r\n    display: grid;\r\n    grid-row: 1;\r\n    grid-column: 1;\r\n\r\n}\r\n\r\n.content {\r\n    width: 33vw;\r\n    height: 83vh;\r\n    background-color: skyblue;\r\n    border: 2px solid black;\r\n\r\n    display: grid;\r\n    grid-row: 1;\r\n    grid-column: 2;\r\n}\r\n.sidebar-r {\r\n    width: 33vw;\r\n    height: 83vh;\r\n    background-color: skyblue;\r\n    border: 2px solid black;\r\n\r\n    display: grid;\r\n    grid-row: 1;\r\n    grid-column: 3;\r\n}\r\n\r\nheader {\r\n    background-color: mediumpurple;\r\n    display: grid;\r\n    grid-template-columns: 40fr auto 1fr; /* Adjust this to fit your content needs */\r\n    padding: 20px;\r\n    position: sticky;\r\n    top: 0;\r\n    margin: 0;\r\n}\r\n\r\n\r\n.icon {\r\n    color: white;\r\n}\r\n\r\nfooter {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    background-color: mediumpurple;\r\n    padding: 22px;\r\n    position: sticky;\r\n    bottom: 0;\r\n    color: white;\r\n    grid-row: 4;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css b/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css
+--- a/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css	(revision 60f3309eff9987e1a213d8332a514cd7eebe79e9)
++++ b/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css	(date 1726557654005)
+@@ -21,6 +21,7 @@
+     grid-row: 1;
+     grid-column: 1;
+ 
++
+ }
+ 
+ .content {

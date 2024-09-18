@@ -1,0 +1,18 @@
+Index: flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\r\n    margin: 0;\r\n}\r\n\r\n\r\n.container {\r\n    display: flex;\r\n    height: auto;\r\n\r\n    gap: 15px;\r\n    flex-direction: row;\r\n    justify-content: space-around;\r\n    align-content: space-around;\r\n}\r\n\r\n.sidebar-l {\r\n    width: 280px;\r\n    height: 83vh;\r\n    background-color: skyblue;\r\n    border: 2px solid black;\r\n\r\n    display: flex;\r\n    flex-grow: 1;\r\n    align-self: flex-start;\r\n    flex-direction: column;\r\n    font-size: medium;\r\n    border-radius: 15px;\r\n\r\n}\r\n\r\n.content {\r\n    width: 80vw;\r\n    height: 83vh;\r\n    background-color: skyblue;\r\n    border: 2px solid black;\r\n\r\n    display: flex;\r\n    flex-grow: 4;\r\n    font-size: medium;\r\n    flex-direction: column;\r\n    border-radius: 15px;\r\n}\r\n.sidebar-r {\r\n    width: 280px;\r\n    height: 83vh;\r\n    background-color: skyblue;\r\n    border: 2px solid black;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n\r\n    flex-grow: 2;\r\n    font-size: medium;\r\n    border-radius: 15px;\r\n}\r\n\r\nfooter {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    background-color: mediumpurple;\r\n    padding: 20px;\r\n    position: sticky;\r\n    bottom: 0;\r\n    color: white;\r\n\r\n}\r\n\r\nheader {\r\n    background-color: mediumpurple;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    padding: 20px;\r\n    position: sticky;\r\n    top: 0;\r\n    margin: 0;\r\n}\r\n\r\n.icon {\r\n    color: white;\r\n}\r\n\r\n\r\n@media only screen and (max-width: 1024px) {\r\n    .container {\r\n        flex-direction: column;\r\n        display: flex;\r\n    }\r\n\r\n    .sidebar-l, .sidebar-r, .content {\r\n        width: 100%;\r\n\r\n    }\r\n}\r\n\r\n/*\r\nBronnen;\r\nw3schools\r\nJay\r\nFlexbox froggy\r\n\r\n\r\n*\\\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css b/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css
+--- a/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css	(revision 93ff400fc23112ea34486c9d4266c42a0baf3ee6)
++++ b/flexboxhtmlcss/flexboxhtmlcss/css/myStyle.css	(date 1726557631670)
+@@ -63,6 +63,7 @@
+     bottom: 0;
+     color: white;
+ 
++
+ }
+ 
+ header {
