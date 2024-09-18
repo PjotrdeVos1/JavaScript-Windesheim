@@ -4,6 +4,7 @@ let Groeting;
 let Dag;
 
 
+// Item 1
 
 function getRandomColor() { // Deze fuction zorgt er voor dat er een random kleur per press op de knop komt
     const letters = '0123456789ABCDEF';
@@ -31,6 +32,7 @@ link.addEventListener('click', function(event) {
 
 
 
+// Item 2
 
 
 
@@ -45,6 +47,8 @@ if (hours < 12) {
 document.getElementById("item2").innerHTML = Groeting // Hier verplaats ik de HTML in ID "item2" Naar de Groeting van hoelaat het is.
 
 
+
+// Item 3
 
 switch (new Date().getDay()) {
     case 0:

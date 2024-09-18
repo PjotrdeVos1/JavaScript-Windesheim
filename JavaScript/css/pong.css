@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 15px;
+    background: black;
+}
+
+.GameArea {
+    width: 1505px;
+    height: 690px;
+    color: white;
+    border: 1px solid white;
+}
+
+.Player1 {
+    width: 25px;
+    height: 75px;
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+}
+
+.Player2 {
+    width: 25px;
+    height: 750px;
+    float: right;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.Ball {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
