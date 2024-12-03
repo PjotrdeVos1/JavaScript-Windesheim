@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc21764d-20cf-4788-b0c7-b73d3407bb2d" name="Changes" comment="Javascript First push" />
+    <list default="true" id="bc21764d-20cf-4788-b0c7-b73d3407bb2d" name="Changes" comment="Javascript First push">
+      <change afterPath="$PROJECT_DIR$/ProfileVersionTwo/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileVersionTwo/resources/views/ttg/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WDphp/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SchoolProjecten.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SchoolProjecten.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2024_09_20_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2024_09_20_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2024_09_20__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2024_09_20__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2024_09_21_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2024_09_21__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portofolio/Models/HomeModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portofolio/Models/InfoModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portofolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portofolio/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,15 +33,16 @@
       <option value="repository" />
     </option>
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/ProfileVersionTwo/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,54 +50,195 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/Portofolio" value="views" />
         <entry key="$PROJECT_DIR$/flexboxhtmlcss/flexboxhtmlcss" value="GridAndFlex" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php-8.3.11-nts-Win32-vs16-x64\php.exe" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php-8.3.11-nts-Win32-vs16-x64\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/composer" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/league/config" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/ProfileVersionTwo/vendor/laravel/breeze" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2lbE7RCt2uaRu6hNB9UraLeuqoo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SchoolProjecten/JavaScript",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.head.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.head.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SchoolProjecten/ProfileVersionTwo/resources/views/ttg&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SchoolProjecten\ProfileVersionTwo\resources\views\ttg" />
       <recent name="D:\SchoolProjecten\JavaScript" />
       <recent name="D:\SchoolProjecten" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SchoolProjecten" />
-      <recent name="D:\SchoolProjecten\flexboxhtmlcss" />
-      <recent name="D:\SchoolProjecten\PBS\Images" />
-      <recent name="D:\SchoolProjecten\PBS" />
+      <recent name="D:\SchoolProjecten\Portofolio" />
+      <recent name="D:\SchoolProjecten\Portofolio\views\pictures" />
+      <recent name="D:\SchoolProjecten\Portofolio\views" />
+      <recent name="D:\SchoolProjecten\WDphp\views" />
+      <recent name="D:\SchoolProjecten\Portofolio\Foto's" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/ProfileVersionTwo/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
-        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23726.107" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23726.107" />
       </set>
     </attachedChunks>
   </component>
@@ -100,6 +259,29 @@
       <workItem from="1726042971227" duration="369000" />
       <workItem from="1726043360071" duration="6719000" />
       <workItem from="1726556832803" duration="15970000" />
+      <workItem from="1726656257923" duration="3893000" />
+      <workItem from="1727161220205" duration="96000" />
+      <workItem from="1727161327351" duration="10746000" />
+      <workItem from="1727250968530" duration="960000" />
+      <workItem from="1727346439468" duration="4121000" />
+      <workItem from="1727679688229" duration="16356000" />
+      <workItem from="1727853081273" duration="11091000" />
+      <workItem from="1728286515956" duration="6485000" />
+      <workItem from="1728462493772" duration="8233000" />
+      <workItem from="1728976163161" duration="3154000" />
+      <workItem from="1728981545663" duration="2642000" />
+      <workItem from="1729095774224" duration="4669000" />
+      <workItem from="1729495613070" duration="45000" />
+      <workItem from="1729495668542" duration="1224000" />
+      <workItem from="1729673883797" duration="88000" />
+      <workItem from="1729673984530" duration="6670000" />
+      <workItem from="1730223710474" duration="4667000" />
+      <workItem from="1730377897976" duration="2199000" />
+      <workItem from="1730472212806" duration="13495000" />
+      <workItem from="1731400383211" duration="3262000" />
+      <workItem from="1731412772756" duration="1626000" />
+      <workItem from="1731415292083" duration="13939000" />
+      <workItem from="1732006099722" duration="7046000" />
     </task>
     <task id="LOCAL-00001" summary="CSS for combi of GRID AND FLEX modified">
       <option name="closed" value="true" />
@@ -189,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726643487480</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Javascript First push">
+      <option name="closed" value="true" />
+      <created>1728640176744</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728640176744</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

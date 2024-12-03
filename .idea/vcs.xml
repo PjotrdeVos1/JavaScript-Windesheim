@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PBS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Portofolio" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/flexboxhtmlcss/flexboxhtmlcss" vcs="Git" />
   </component>
 </project>

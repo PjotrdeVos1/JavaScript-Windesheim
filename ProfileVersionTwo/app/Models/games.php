@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class games extends Model
+{
+    use HasFactory;
+    protected $fillable = ['title', 'Number_of_players', 'Description'];
+}
